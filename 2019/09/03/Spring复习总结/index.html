@@ -146,17 +146,20 @@
 
 
 
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="Spring复习总结 请谈谈Spring自动装配的方式有哪些   -no：不进行自动装配，手动设置Bean的依赖关系  -byName：根据Bean名称进行自动装配  -ByType：  根据Type进行自动装配  -constructor: 根据默认的构造方法进行装配  -autodetect：如果有默认的构造器则通过constructor的方式进行自动装配，否则使用byType的方式进行自动装">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://linqxxy.top/2019/08/08/hello-world/index.html">
+<meta property="og:title" content="泠清心愿">
+<meta property="og:url" content="http://linqxxy.top/2019/09/03/Spring复习总结/index.html">
 <meta property="og:site_name" content="泠清心愿">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="Spring复习总结 请谈谈Spring自动装配的方式有哪些   -no：不进行自动装配，手动设置Bean的依赖关系  -byName：根据Bean名称进行自动装配  -ByType：  根据Type进行自动装配  -constructor: 根据默认的构造方法进行装配  -autodetect：如果有默认的构造器则通过constructor的方式进行自动装配，否则使用byType的方式进行自动装">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-08-08T00:48:47.081Z">
+<meta property="og:image" content="f:%5Cwwh%5C%E6%80%BB%E7%BB%93%5CspringBean%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.png">
+<meta property="og:image" content="f:%5Cwwh%5C%E6%80%BB%E7%BB%93%5CSpring.png">
+<meta property="og:updated_time" content="2019-09-02T09:03:35.676Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="泠清心愿">
+<meta name="twitter:description" content="Spring复习总结 请谈谈Spring自动装配的方式有哪些   -no：不进行自动装配，手动设置Bean的依赖关系  -byName：根据Bean名称进行自动装配  -ByType：  根据Type进行自动装配  -constructor: 根据默认的构造方法进行装配  -autodetect：如果有默认的构造器则通过constructor的方式进行自动装配，否则使用byType的方式进行自动装">
+<meta name="twitter:image" content="f:%5Cwwh%5C%E6%80%BB%E7%BB%93%5CspringBean%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.png">
 
 
 
@@ -166,7 +169,7 @@
 
   
   
-  <link rel="canonical" href="http://linqxxy.top/2019/08/08/hello-world/">
+  <link rel="canonical" href="http://linqxxy.top/2019/09/03/Spring复习总结/">
 
 
 
@@ -176,7 +179,7 @@
   };
 </script>
 
-  <title>Hello World | 泠清心愿</title>
+  <title> | 泠清心愿</title>
   
 
 
@@ -442,7 +445,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://linqxxy.top/2019/08/08/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://linqxxy.top/2019/09/03/Spring复习总结/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="linqxxy">
@@ -459,7 +462,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World
+          <h1 class="post-title" itemprop="name headline">
 
               
             
@@ -485,9 +488,25 @@
                 
               
 
-              <time title="创建时间：2019-08-08 08:48:47" itemprop="dateCreated datePublished" datetime="2019-08-08T08:48:47+08:00">2019-08-08</time>
+              <time title="创建时间：2019-09-03 22:33:30" itemprop="dateCreated datePublished" datetime="2019-09-03T22:33:30+08:00">2019-09-03</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-09-02 17:03:35" itemprop="dateModified" datetime="2019-09-02T17:03:35+08:00">2019-09-02</time>
+              
             
           </span>
 
@@ -545,19 +564,104 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <h1 id="Spring复习总结"><a href="#Spring复习总结" class="headerlink" title="Spring复习总结"></a>Spring复习总结</h1><ol>
+<li><h2 id="请谈谈Spring自动装配的方式有哪些"><a href="#请谈谈Spring自动装配的方式有哪些" class="headerlink" title="请谈谈Spring自动装配的方式有哪些"></a>请谈谈Spring自动装配的方式有哪些</h2></li>
+</ol>
+<ul>
+<li><p>-no：不进行自动装配，手动设置Bean的依赖关系</p>
+</li>
+<li><p>-byName：根据Bean名称进行自动装配</p>
+</li>
+<li><p>-ByType：  根据Type进行自动装配</p>
+</li>
+<li><p>-constructor: 根据默认的构造方法进行装配</p>
+</li>
+<li><p>-autodetect：如果有默认的构造器则通过constructor的方式进行自动装配，否则使用byType的方式进行自动装配。</p>
+<p>注意：自动装配没有自定义装配方式那么精确，而且不能自动装配简单属性（基本类型、字符串等）</p>
+</li>
+</ul>
+<ol start="2">
+<li><h2 id="请问什么是IOC和DI，并简要说明DI是怎么样实现的"><a href="#请问什么是IOC和DI，并简要说明DI是怎么样实现的" class="headerlink" title="请问什么是IOC和DI，并简要说明DI是怎么样实现的"></a>请问什么是IOC和DI，并简要说明DI是怎么样实现的</h2><ul>
+<li><p>IoC叫控制反转，是Inversion of Control的缩写，DI（Dependency Injection）叫依赖注入，是对IoC更简单的诠释。控制反转是把传统上由程序代码直接操控的对象的调用权交给容器，通过容器来实现对象组件的装配和管理。所谓的”控制反转”就是对组件对象控制权的转移，从程序代码本身转移到了外部容器，由容器来创建对象并管理对象之间的依赖关系。IoC体现了好莱坞原则 - “Don’t call me, we will call you”。依赖注入的基本原则是应用组件不应该负责查找资源或者其他依赖的协作对象。配置对象的工作应该由容器负责，查找资源的逻辑应该从应用组件的代码中抽取出来，交给容器来完成。DI是对IoC更准确的描述，即组件之间的依赖关系由容器在运行期决定，形象的来说，即由容器动态的将某种依赖关系注入到组件之中。一个类A需要用到接口B中的方法，那么就需要为类A和接口B建立关联或依赖关系，最原始的方法是在类A中创建一个接口B的实现类C的实例，但这种方法需要开发人员自行维护二者的依赖关系，也就是说当依赖关系发生变动的时候需要修改代码并重新构建整个系统。如果通过一个容器来管理这些对象以及对象的依赖关系，则只需要在类A中定义好用于关联接口B的方法（构造器或setter方法），将类A和接口B的实现类C放入容器中，通过对容器的配置来实现二者的关联。</p>
+</li>
+<li><p>依赖注入可以通过setter方法注入（设值注入）、构造器注入和接口注入三种方式来实现，Spring支持setter注入和构造器注入，通常使用构造器注入来注入必须的依赖关系，对于可选的依赖关系，则setter注入是更好的选择，setter注入需要类提供无参构造器或者无参的静态工厂方法来创建对象。在需要指定继承的时候，只需要指定其Parent即可。</p>
+</li>
+</ul>
+</li>
+<li><h2 id="请说明一下Spring中BeanFactory和ApplicationContext的区别是什么？"><a href="#请说明一下Spring中BeanFactory和ApplicationContext的区别是什么？" class="headerlink" title="请说明一下Spring中BeanFactory和ApplicationContext的区别是什么？"></a>请说明一下Spring中BeanFactory和ApplicationContext的区别是什么？</h2><ul>
+<li>概念：</li>
+</ul>
+<p>BeanFactory：<br>BeanFactory是spring中比较原始，比较古老的Factory。因为比较古老，所以BeanFactory无法支持spring插件，例如：AOP、Web应用等功能。</p>
+<p>ApplicationContext<br>ApplicationContext是BeanFactory的子类，因为古老的BeanFactory无法满足不断更新的spring的需求，于是ApplicationContext就基本上代替了BeanFactory的工作，以一种更面向框架的工作方式以及对上下文进行分层和实现继承，并在这个基础上对功能进行扩展：<br>&lt;1&gt;MessageSource, 提供国际化的消息访问<br>&lt;2&gt;资源访问（如URL和文件）<br>&lt;3&gt;事件传递<br>&lt;4&gt;Bean的自动装配<br>&lt;5&gt;各种不同应用层的Context实现</p>
+<ul>
+<li>区别：</li>
+</ul>
+<p>&lt;1&gt;如果使用ApplicationContext，如果配置的bean是singleton，那么不管你有没有或想不想用它，它都会被实例化。好处是可以预先加载，坏处是浪费内存。<br>&lt;2&gt;BeanFactory，当使用BeanFactory实例化对象时，配置的bean不会马上被实例化，而是等到你使用该bean的时候（getBean）才会被实例化。好处是节约内存，坏处是速度比较慢。多用于移动设备的开发。<br>&lt;3&gt;没有特殊要求的情况下，应该使用ApplicationContext完成。因为BeanFactory能完成的事情，ApplicationContext都能完成，并且提供了更多接近现在开发的功能。</p>
+</li>
+<li><h2 id="请简单说明一下依赖注入的方式有哪几种？以及这些方法如何使用？"><a href="#请简单说明一下依赖注入的方式有哪几种？以及这些方法如何使用？" class="headerlink" title="请简单说明一下依赖注入的方式有哪几种？以及这些方法如何使用？"></a>请简单说明一下依赖注入的方式有哪几种？以及这些方法如何使用？</h2><ul>
+<li>1、Set注入 2、构造器注入 3、接口注入</li>
+</ul>
+</li>
+<li><h2 id="请问在以前的学习中有使用过Spring里面的注解吗？如果有请谈一下autowired-和resource区别是什么？"><a href="#请问在以前的学习中有使用过Spring里面的注解吗？如果有请谈一下autowired-和resource区别是什么？" class="headerlink" title="请问在以前的学习中有使用过Spring里面的注解吗？如果有请谈一下autowired 和resource区别是什么？"></a>请问在以前的学习中有使用过Spring里面的注解吗？如果有请谈一下autowired 和resource区别是什么？</h2><p>参考回答：</p>
+<h3 id="1、共同点"><a href="#1、共同点" class="headerlink" title="1、共同点"></a>1、共同点</h3><p>两者都可以写在字段和setter方法上。两者如果都写在字段上，那么就不需要再写setter方法。</p>
+<h3 id="2、不同点"><a href="#2、不同点" class="headerlink" title="2、不同点"></a>2、不同点</h3><p>（1）@Autowired</p>
+<p>@Autowired为Spring提供的注解，需要导入包org.springframework.beans.factory.annotation.Autowired;只按照byType注入。</p>
+<p>@Autowired注解是按照类型（byType）装配依赖对象，默认情况下它要求依赖对象必须存在，如果允许null值，可以设置它的required属性为false。如果我们想使用按照名称（byName）来装配，可以结合@Qualifier注解一起使用。</p>
+<p>（2）@Resource</p>
+<p>@Resource默认按照ByName自动注入，由J2EE提供，需要导入包javax.annotation.Resource。@Resource有两个重要的属性：name和type，而Spring将@Resource注解的name属性解析为bean的名字，而type属性则解析为bean的类型。所以，如果使用name属性，则使用byName的自动注入策略，而使用type属性时则使用byType自动注入策略。如果既不制定name也不制定type属性，这时将通过反射机制使用byName自动注入策略。</p>
+</li>
+<li><h2 id="请介绍一下bean的生命周期"><a href="#请介绍一下bean的生命周期" class="headerlink" title="请介绍一下bean的生命周期"></a>请介绍一下bean的生命周期</h2></li>
+</ol>
+<p><img src="F:%5Cwwh%5C%E6%80%BB%E7%BB%93%5CspringBean%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.png" alt="springBean生命周期"></p>
+<ol start="7">
+<li><h2 id="请简要说明一下IOC和AOP是什么？"><a href="#请简要说明一下IOC和AOP是什么？" class="headerlink" title="请简要说明一下IOC和AOP是什么？"></a>请简要说明一下IOC和AOP是什么？</h2><p>参考回答：</p>
+<p>依赖注入的三种方式：（1）接口注入（2）Construct注入（3）Setter注入</p>
+<p>控制反转（IoC）与依赖注入（DI）是同一个概念，引入IOC的目的：（1）脱开、降低类之间的耦合；（2）倡导面向接口编程、实施依赖倒换原则； （3）提高系统可插入、可测试、可修改等特性。</p>
+<p>具体做法：（1）将bean之间的依赖关系尽可能地转换为关联关系；</p>
+<p>（2）将对具体类的关联尽可能地转换为对Java interface的关联，而不是与具体的服务对象相关联；</p>
+<p>（3）Bean实例具体关联相关Java interface的哪个实现类的实例，在配置信息的元数据中描述；</p>
+<p>（4）由IoC组件（或称容器）根据配置信息，实例化具体bean类、将bean之间的依赖关系注入进来。</p>
+<p>AOP（Aspect Oriented Programming），即面向切面编程，可以说是OOP（Object Oriented Programming，面向对象编程）的补充和完善。OOP引入封装、继承、多态等概念来建立一种对象层次结构，用于模拟公共行为的一个集合。不过OOP允许开发者定义纵向的关系，但并不适合定义横向的关系，例如日志功能。日志代码往往横向地散布在所有对象层次中，而与它对应的对象的核心功能毫无关系对于其他类型的代码，如安全性、异常处理和透明的持续性也都是如此，这种散布在各处的无关的代码被称为横切（cross cutting），在OOP设计中，它导致了大量代码的重复，而不利于各个模块的重用。</p>
+<p>AOP技术恰恰相反，它利用一种称为”横切”的技术，剖解开封装的对象内部，并将那些影响了多个类的公共行为封装到一个可重用模块，并将其命名为”Aspect”，即切面。所谓”切面”，简单说就是那些与业务无关，却为业务模块所共同调用的逻辑或责任封装起来，便于减少系统的重复代码，降低模块之间的耦合度，并有利于未来的可操作性和可维护性。</p>
+<p>使用”横切”技术，AOP把软件系统分为两个部分：核心关注点和横切关注点。业务处理的主要流程是核心关注点，与之关系不大的部分是横切关注点。横切关注点的一个特点是，他们经常发生在核心关注点的多处，而各处基本相似，比如权限认证、日志、事物。AOP的作用在于分离系统中的各种关注点，将核心关注点和横切关注点分离开来。</p>
+</li>
+<li><h2 id="你如何理解AOP中的连接点（Joinpoint）、切点（Pointcut）、增强（Advice）、引介（Introduction）、织入（Weaving）、切面（Aspect）这些概念？"><a href="#你如何理解AOP中的连接点（Joinpoint）、切点（Pointcut）、增强（Advice）、引介（Introduction）、织入（Weaving）、切面（Aspect）这些概念？" class="headerlink" title="你如何理解AOP中的连接点（Joinpoint）、切点（Pointcut）、增强（Advice）、引介（Introduction）、织入（Weaving）、切面（Aspect）这些概念？"></a>你如何理解AOP中的连接点（Joinpoint）、切点（Pointcut）、增强（Advice）、引介（Introduction）、织入（Weaving）、切面（Aspect）这些概念？</h2><h3 id="参考回答："><a href="#参考回答：" class="headerlink" title="参考回答："></a>参考回答：</h3><p>a. 连接点（Joinpoint）：程序执行的某个特定位置（如：某个方法调用前、调用后，方法抛出异常后）。一个类或一段程序代码拥有一些具有边界性质的特定点，这些代码中的特定点就是连接点。Spring仅支持方法的连接点。<br>b. 切点（Pointcut）：如果连接点相当于数据中的记录，那么切点相当于查询条件，一个切点可以匹配多个连接点。Spring AOP的规则解析引擎负责解析切点所设定的查询条件，找到对应的连接点。<br>c. 增强（Advice）：增强是织入到目标类连接点上的一段程序代码。Spring提供的增强接口都是带方位名的，如：BeforeAdvice、AfterReturningAdvice、ThrowsAdvice等。</p>
+<p>d. 引介（Introduction）：引介是一种特殊的增强，它为类添加一些属性和方法。这样，即使一个业务类原本没有实现某个接口，通过引介功能，可以动态的未该业务类添加接口的实现逻辑，让业务类成为这个接口的实现类。<br>e. 织入（Weaving）：织入是将增强添加到目标类具体连接点上的过程，AOP有三种织入方式：①编译期织入：需要特殊的Java编译期（例如AspectJ的ajc）；②装载期织入：要求使用特殊的类加载器，在装载类的时候对类进行增强；③运行时织入：在运行时为目标类生成代理实现增强。Spring采用了动态代理的方式实现了运行时织入，而AspectJ采用了编译期织入和装载期织入的方式。<br>f. 切面（Aspect）：切面是由切点和增强（引介）组成的，它包括了对横切关注功能的定义，也包括了对连接点的定义。</p>
+</li>
+<li><h2 id="请问AOP的原理是什么？"><a href="#请问AOP的原理是什么？" class="headerlink" title="请问AOP的原理是什么？"></a>请问AOP的原理是什么？</h2><p>AOP（Aspect Orient Programming），指面向方面（切面）编程，作为面向对象的一种补充，用于处理系统中分布于各个模块的横切关注点，比如事务管理、日志、缓存等等。AOP实现的关键在于AOP框架自动创建的AOP代理，AOP代理主要分为静态代理和动态代理，静态代理的代表为AspectJ；而动态代理则以Spring AOP为代表。通常使用AspectJ的编译时增强实现AOP，AspectJ是静态代理的增强，所谓的静态代理就是AOP框架会在编译阶段生成AOP代理类，因此也称为编译时增强。</p>
+<p>Spring AOP中的动态代理主要有两种方式，JDK动态代理和CGLIB动态代理。JDK动态代理通过反射来接收被代理的类，并且要求被代理的类必须实现一个接口。JDK动态代理的核心是InvocationHandler接口和Proxy类。</p>
+<p>如果目标类没有实现接口，那么Spring AOP会选择使用CGLIB来动态代理目标类。CGLIB（Code Generation Library），是一个代码生成的类库，可以在运行时动态的生成某个类的子类，注意，CGLIB是通过继承的方式做的动态代理，因此如果某个类被标记为final，那么它是无法使用CGLIB做动态代理的。</p>
+</li>
+<li><h2 id="请问aop的应用场景有哪些（了解）？"><a href="#请问aop的应用场景有哪些（了解）？" class="headerlink" title="请问aop的应用场景有哪些（了解）？"></a>请问aop的应用场景有哪些（了解）？</h2><h3 id="参考回答：-1"><a href="#参考回答：-1" class="headerlink" title="参考回答："></a>参考回答：</h3><p>Authentication 权限 ，Caching 缓存 ，Context passing 内容传递 ，Error handling 错误处理 ，Lazy loading 懒加载 ，Debugging 调试 ，logging, tracing, profiling and monitoring 记录跟踪　优化　校准，Performance optimization 性能优化 ，Persistence 持久化 ，Resource pooling 资源池 ，Synchronization 同步，Transactions 事务。</p>
+</li>
+<li><h2 id="请简单谈一下spring框架的优点都有哪些？（理解）"><a href="#请简单谈一下spring框架的优点都有哪些？（理解）" class="headerlink" title="请简单谈一下spring框架的优点都有哪些？（理解）"></a>请简单谈一下spring框架的优点都有哪些？（理解）</h2><h3 id="参考回答：-2"><a href="#参考回答：-2" class="headerlink" title="参考回答："></a>参考回答：</h3><p>Spring是一个轻量级的DI和AOP容器框架，在项目的中的使用越来越广泛，它的优点主要有以下几点：</p>
+<p>Spring是一个非侵入式框架，其目标是使应用程序代码对框架的依赖最小化，应用代码可以在没有Spring或者其他容器的情况运行。</p>
+<p>Spring提供了一个一致的编程模型，使应用直接使用POJO开发，从而可以使运行环境隔离开来。</p>
+<p>Spring推动应用的设计风格向面向对象及面向接口编程转变，提高了代码的重用性和可测试性。</p>
+<p>Spring改进了结构体系的选择，虽然作为应用平台，Spring可以帮助我们选择不同的技术实现，比如从Hibernate切换到其他的ORM工具，从Struts切换到Spring MVC,尽管我们通常不会这么做，但是我们在技术方案上选择使用Spring作为应用平台，Spring至少为我们提供了这种可能性的选择，从而降低了平台锁定风险。</p>
+</li>
+<li><h2 id="请简单介绍一下spring？"><a href="#请简单介绍一下spring？" class="headerlink" title="请简单介绍一下spring？"></a>请简单介绍一下spring？</h2><p>Spring是一个轻量级框架，可以一站式构建你的企业级应用。</p>
+<p>Spring的模块大概分为6个。分别是：</p>
+<p>1、Core Container（Spring的核心）【重要】</p>
+<p>2、AOP（面向切面变成）【重要】</p>
+<p>3、Messaging（消息发送的支持）</p>
+<p>4、Data Access/Integration（数据访问和集成）</p>
+<p>5、Web（主要是SpringWeb内容，包括MVC）【重要】</p>
+<p>6、Test（Spring测试支持，包含JUint等测试单元的支持） 7、Instrumentation（设备支持，比如Tomcat的支持）</p>
+</li>
+<li><h2 id="请问MyBatis中的动态SQL是什么意思？"><a href="#请问MyBatis中的动态SQL是什么意思？" class="headerlink" title="请问MyBatis中的动态SQL是什么意思？"></a>请问MyBatis中的动态SQL是什么意思？</h2><h3 id="参考回答：-3"><a href="#参考回答：-3" class="headerlink" title="参考回答："></a>参考回答：</h3><p>对于一些复杂的查询，我们可能会指定多个查询条件，但是这些条件可能存在也可能不存在，需要根据用户指定的条件动态生成SQL语句。如果不使用持久层框架我们可能需要自己拼装SQL语句，还好MyBatis提供了动态SQL的功能来解决这个问题。MyBatis中用于实现动态SQL的元素主要有：<br>- if<br>- choose / when / otherwise<br>- trim<br>- where<br>- set<br>- foreach</p>
+</li>
+<li><h2 id="请说明一下MyBatis中命名空间（namespace）的作用是什么？"><a href="#请说明一下MyBatis中命名空间（namespace）的作用是什么？" class="headerlink" title="请说明一下MyBatis中命名空间（namespace）的作用是什么？"></a>请说明一下MyBatis中命名空间（namespace）的作用是什么？</h2><p>在大型项目中，可能存在大量的SQL语句，这时候为每个SQL语句起一个唯一的标识（ID）就变得并不容易了。为了解决这个问题，在MyBatis中，可以为每个映射文件起一个唯一的命名空间，这样定义在这个映射文件中的每个SQL语句就成了定义在这个命名空间中的一个ID。只要我们能够保证每个命名空间中这个ID是唯一的，即使在不同映射文件中的语句ID相同，也不会再产生冲突了。</p>
+</li>
+<li><h2 id="请谈一下Spring-MVC的工作原理是怎样的（小明的神图）？"><a href="#请谈一下Spring-MVC的工作原理是怎样的（小明的神图）？" class="headerlink" title="请谈一下Spring MVC的工作原理是怎样的（小明的神图）？"></a>请谈一下Spring MVC的工作原理是怎样的（小明的神图）？</h2><h2 id><a href="#" class="headerlink" title></a><img src="F:%5Cwwh%5C%E6%80%BB%E7%BB%93%5CSpring.png" alt="Spring"></h2><h3 id="参考回答：-4"><a href="#参考回答：-4" class="headerlink" title="参考回答："></a>参考回答：</h3><p>①客户端的所有请求都交给前端控制器DispatcherServlet来处理，它会负责调用系统的其他模块来真正处理用户的请求。<br>② DispatcherServlet收到请求后，将根据请求的信息（包括URL、HTTP协议方法、请求头、请求参数、Cookie等）以及HandlerMapping的配置找到处理该请求的Handler（任何一个对象都可以作为请求的Handler）。<br>③在这个地方Spring会通过HandlerAdapter对该处理器进行封装。<br>④ HandlerAdapter是一个适配器，它用统一的接口对各种Handler中的方法进行调用。<br>⑤ Handler完成对用户请求的处理后，会返回一个ModelAndView对象给DispatcherServlet，ModelAndView顾名思义，包含了数据模型以及相应的视图的信息。<br>⑥ ModelAndView的视图是逻辑视图，DispatcherServlet还要借助ViewResolver完成从逻辑视图到真实视图对象的解析工作。<br>⑦ 当得到真正的视图对象后，DispatcherServlet会利用视图对象对模型数据进行渲染。<br>⑧ 客户端得到响应，可能是一个普通的HTML页面，也可以是XML或JSON字符串，还可以是一张图片或者一个PDF文件。</p>
+</li>
+<li><h2 id="请说明一下springmvc和spring-boot区别是什么？"><a href="#请说明一下springmvc和spring-boot区别是什么？" class="headerlink" title="请说明一下springmvc和spring-boot区别是什么？"></a>请说明一下springmvc和spring-boot区别是什么？</h2><p>总的来说，Spring 就像一个大家族，有众多衍生产品例如 Boot，Security，JPA等等。但他们的基础都是Spring 的 IOC 和 AOP，IOC提供了依赖注入的容器，而AOP解决了面向切面的编程，然后在此两者的基础上实现了其他衍生产品的高级功能；因为 Spring 的配置非常复杂，各种xml，properties处理起来比较繁琐。于是为了简化开发者的使用，Spring社区创造性地推出了Spring Boot，它遵循约定优于配置，极大降低了Spring使用门槛，但又不失Spring原本灵活强大的功能。</p>
+</li>
+<li><h2 id="请说明一下Spring-MVC注解的优点是什么？"><a href="#请说明一下Spring-MVC注解的优点是什么？" class="headerlink" title="请说明一下Spring MVC注解的优点是什么？"></a>请说明一下Spring MVC注解的优点是什么？</h2><h3 id="参考回答：-5"><a href="#参考回答：-5" class="headerlink" title="参考回答："></a>参考回答：</h3><p>1、XML配置起来有时候冗长，此时注解可能是更好的选择，如jpa的实体映射；注解在处理一些不变的元数据时有时候比XML方便的多，比如springmvc的数据绑定，如果用xml写的代码会多的多；</p>
+<p>2、注解最大的好处就是简化了XML配置；其实大部分注解一定确定后很少会改变，所以在一些中小项目中使用注解反而提供了开发效率，所以没必要一头走到黑；</p>
+<p>3、注解相对于XML的另一个好处是类型安全的，XML只能在运行期才能发现问题。</p>
+</li>
+</ol>
 
       
     </div>
@@ -625,7 +729,7 @@
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
     
-    <a href="http://linqxxy.top/2019/08/08/hello-world/" title="Hello World">http://linqxxy.top/2019/08/08/hello-world/</a>
+    <a href="http://linqxxy.top/2019/09/03/Spring复习总结/">http://linqxxy.top/2019/09/03/Spring复习总结/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li>
@@ -654,15 +758,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2019/08/08/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/09/03/Spring复习总结/" rel="prev" title>
-                 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -864,7 +968,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Spring复习总结"><span class="nav-number">1.</span> <span class="nav-text">Spring复习总结</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#请谈谈Spring自动装配的方式有哪些"><span class="nav-number">1.1.</span> <span class="nav-text">请谈谈Spring自动装配的方式有哪些</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请问什么是IOC和DI，并简要说明DI是怎么样实现的"><span class="nav-number">1.2.</span> <span class="nav-text">请问什么是IOC和DI，并简要说明DI是怎么样实现的</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请说明一下Spring中BeanFactory和ApplicationContext的区别是什么？"><span class="nav-number">1.3.</span> <span class="nav-text">请说明一下Spring中BeanFactory和ApplicationContext的区别是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请简单说明一下依赖注入的方式有哪几种？以及这些方法如何使用？"><span class="nav-number">1.4.</span> <span class="nav-text">请简单说明一下依赖注入的方式有哪几种？以及这些方法如何使用？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请问在以前的学习中有使用过Spring里面的注解吗？如果有请谈一下autowired-和resource区别是什么？"><span class="nav-number">1.5.</span> <span class="nav-text">请问在以前的学习中有使用过Spring里面的注解吗？如果有请谈一下autowired 和resource区别是什么？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、共同点"><span class="nav-number">1.5.1.</span> <span class="nav-text">1、共同点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、不同点"><span class="nav-number">1.5.2.</span> <span class="nav-text">2、不同点</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请介绍一下bean的生命周期"><span class="nav-number">1.6.</span> <span class="nav-text">请介绍一下bean的生命周期</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请简要说明一下IOC和AOP是什么？"><span class="nav-number">1.7.</span> <span class="nav-text">请简要说明一下IOC和AOP是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#你如何理解AOP中的连接点（Joinpoint）、切点（Pointcut）、增强（Advice）、引介（Introduction）、织入（Weaving）、切面（Aspect）这些概念？"><span class="nav-number">1.8.</span> <span class="nav-text">你如何理解AOP中的连接点（Joinpoint）、切点（Pointcut）、增强（Advice）、引介（Introduction）、织入（Weaving）、切面（Aspect）这些概念？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#参考回答："><span class="nav-number">1.8.1.</span> <span class="nav-text">参考回答：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请问AOP的原理是什么？"><span class="nav-number">1.9.</span> <span class="nav-text">请问AOP的原理是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请问aop的应用场景有哪些（了解）？"><span class="nav-number">1.10.</span> <span class="nav-text">请问aop的应用场景有哪些（了解）？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#参考回答：-1"><span class="nav-number">1.10.1.</span> <span class="nav-text">参考回答：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请简单谈一下spring框架的优点都有哪些？（理解）"><span class="nav-number">1.11.</span> <span class="nav-text">请简单谈一下spring框架的优点都有哪些？（理解）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#参考回答：-2"><span class="nav-number">1.11.1.</span> <span class="nav-text">参考回答：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请简单介绍一下spring？"><span class="nav-number">1.12.</span> <span class="nav-text">请简单介绍一下spring？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请问MyBatis中的动态SQL是什么意思？"><span class="nav-number">1.13.</span> <span class="nav-text">请问MyBatis中的动态SQL是什么意思？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#参考回答：-3"><span class="nav-number">1.13.1.</span> <span class="nav-text">参考回答：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请说明一下MyBatis中命名空间（namespace）的作用是什么？"><span class="nav-number">1.14.</span> <span class="nav-text">请说明一下MyBatis中命名空间（namespace）的作用是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请谈一下Spring-MVC的工作原理是怎样的（小明的神图）？"><span class="nav-number">1.15.</span> <span class="nav-text">请谈一下Spring MVC的工作原理是怎样的（小明的神图）？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#null"><span class="nav-number">1.16.</span> <span class="nav-text"></span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#参考回答：-4"><span class="nav-number">1.16.1.</span> <span class="nav-text">参考回答：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请说明一下springmvc和spring-boot区别是什么？"><span class="nav-number">1.17.</span> <span class="nav-text">请说明一下springmvc和spring-boot区别是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请说明一下Spring-MVC注解的优点是什么？"><span class="nav-number">1.18.</span> <span class="nav-text">请说明一下Spring MVC注解的优点是什么？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#参考回答：-5"><span class="nav-number">1.18.1.</span> <span class="nav-text">参考回答：</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
@@ -1107,7 +1211,7 @@
   
     <script>
   window.livereOptions = {
-    refer: '2019/08/08/hello-world/'
+    refer: '2019/09/03/Spring复习总结/'
   };
   (function(d, s) {
     var j, e = d.getElementsByTagName(s)[0];
